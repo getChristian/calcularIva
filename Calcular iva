@@ -1,0 +1,20 @@
+package com.Ejercicio;
+
+import java.util.Scanner;
+
+public class Ejercicio {
+
+    public static void main(String[] args) {
+
+
+        System.out.println(calcularIva(50));
+    }
+
+// Creamos función que reciba un precio y devuelva el precio con el IVA incluido :)
+    
+    
+    static double calcularIva(double precio){
+        double iva = precio * 1.21;
+        return iva;
+    }
+}
